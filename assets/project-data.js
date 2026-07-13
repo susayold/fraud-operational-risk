@@ -34,7 +34,7 @@ window.PORTFOLIO_PROJECTS = {
       { name: "Capacity utilization", expression: "Utilization = Alerts per period / Review capacity per period", meaning: "Tests whether a policy creates operational backlog.", use: "Release and stress-capacity control." }
     ],
     process: [
-      { title: "Lock observed and synthetic boundaries", text: "Define allowed claims, label roles, data contracts and anti-circularity controls before model development.", evidence: "Phase 0 gate" },
+      { title: "Lock observed and synthetic boundaries", text: "Define allowed claims, label roles, data contracts and anti-circularity controls before model development.", evidence: "Observed and synthetic data boundaries documented" },
       { title: "Profile extreme class imbalance", text: "Measure prevalence, amount distribution, period stability and feature separation on observed data.", evidence: "492 fraud cases; 0.1727% rate" },
       { title: "Select champion on validation only", text: "Compare logistic, weighted logistic, tree, sampling and anomaly challengers using PR-AUC, capture and workload.", evidence: "Class-weighted logistic champion" },
       { title: "Lock economic alert threshold", text: "Choose the 0.50% validation alert-rate candidate using capacity, net benefit, recall, precision and amount-capture hierarchy.", evidence: "Untouched test alert rate 0.40%" },
@@ -99,7 +99,7 @@ window.PORTFOLIO_PROJECTS = {
         { title: "Validation", text: "228 of 228 checks passed with zero unresolved failures." },
         { title: "Manifest", text: "180 of 180 artifacts passed integrity checks." },
         { title: "Testing", text: "38 UAT, 18 SIT and 16 executable negative tests passed." },
-        { title: "Extraction", text: "FULL package rebuilt end to end; AI review package passed integrity validation." }
+        { title: "Extraction", text: "The complete package was rebuilt end to end and passed integrity validation." }
       ]
     },
     limitations: [
@@ -110,13 +110,13 @@ window.PORTFOLIO_PROJECTS = {
       "Independent model validation, production approval and organisational release sign-off have not been performed."
     ],
     employerValues: [
-      { title: "Right metric choice", text: "I can evaluate rare-event models with PR-AUC, amount capture and threshold economics." },
-      { title: "Detection to operations", text: "I can connect model scores to rules, alerts, capacity, incidents and RCA." },
-      { title: "Claim discipline", text: "I keep observed benchmark evidence separate from synthetic controls-testing evidence." }
+      { title: "Right metric choice", text: "Rare-event performance is evaluated using PR-AUC, amount capture and threshold economics." },
+      { title: "Detection to operations", text: "Model scores are linked to rules, alerts, capacity, incidents and root-cause analysis." },
+      { title: "Claim discipline", text: "Observed benchmark evidence remains separate from synthetic controls-testing evidence." }
     ],
     artifacts: [
       { label: "Fraud & Operational Risk README", type: "MD", href: "evidence/project-5/README.md", detail: "Architecture, results and claim boundary" },
-      { label: "Recruiter summary", type: "MD", href: "evidence/project-5/recruiter_summary.md", detail: "One-page business case" },
+      { label: "Executive project summary", type: "MD", href: "evidence/project-5/recruiter_summary.md", detail: "Concise business and risk summary" },
       { label: "Threshold recommendation", type: "MD", href: "evidence/project-5/threshold_recommendation_memo.md", detail: "Validation hierarchy and test outcome" },
       { label: "Validation report", type: "MD", href: "evidence/project-5/validation_report.md", detail: "228/228 final result" },
       { label: "Model comparison", type: "CSV", href: "evidence/project-5/model_comparison.csv", detail: "Champion and challenger metrics" }
