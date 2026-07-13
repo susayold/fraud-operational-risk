@@ -1,0 +1,5 @@
+metric,point_estimate,ci_method,ci_low,ci_high,event_count,denominator,data_layer,data_status,source_type,claim_boundary,bootstrap_iterations_requested,bootstrap_iterations_used
+fraud_recall,0.8493150684931506,Wilson 95%,0.7499788763087365,0.9137241179027322,73,73,Observed,Derived,Untouched test set; Wilson and bootstrap uncertainty diagnostics,Uncertainty evidence for public benchmark interpretation,500,500
+precision,0.28440366972477066,Wilson 95%,0.22865405401162825,0.3476201885109646,62,218,Observed,Derived,Untouched test set; Wilson and bootstrap uncertainty diagnostics,Uncertainty evidence for public benchmark interpretation,500,500
+pr_auc,0.778638577026038,Bootstrap 95%,0.6761790383584227,0.8718453215421272,73,54807,Observed,Derived,Untouched test set; Wilson and bootstrap uncertainty diagnostics,Uncertainty evidence for public benchmark interpretation,500,500
+fraud_amount_recall,0.6935900987074578,Bootstrap 95%,0.4020515476058563,0.9511652372270696,73,54807,Observed,Derived,Untouched test set; Wilson and bootstrap uncertainty diagnostics,Uncertainty evidence for public benchmark interpretation,500,500

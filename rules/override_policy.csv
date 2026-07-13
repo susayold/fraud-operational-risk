@@ -1,0 +1,6 @@
+override_id,decision_scope,permitted_rationale,approver,audit_evidence_required,duration_limit,data_layer,data_status,source_type,claim_boundary
+OVR-01,STEP_UP to ALLOW,Successful strong authentication,Fraud Operations Lead,Yes,24 hours,Synthetic,Proxy,Fraud control governance design,Illustrative override policy
+OVR-02,MANUAL_REVIEW to ALLOW,Documented false-positive evidence,Senior Investigator,Yes,Case-specific,Synthetic,Proxy,Fraud control governance design,Illustrative override policy
+OVR-03,HOLD to release,Identity and beneficiary verification,Fraud Operations Lead,Yes,Case-specific,Synthetic,Proxy,Fraud control governance design,Illustrative override policy
+OVR-04,BLOCK_ACCOUNT,No unilateral override,Risk Director,Dual approval,Emergency only,Synthetic,Proxy,Fraud control governance design,Illustrative override policy
+OVR-05,DATA_EXCEPTION,No business override for invalid score scale,Technology Risk,No,Release block,Synthetic,Proxy,Fraud control governance design,Illustrative override policy

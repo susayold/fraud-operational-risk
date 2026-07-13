@@ -1,0 +1,17 @@
+customer_segment,channel,transactions,fraud_transactions,average_model_score,average_amount,controlled_transactions,fraud_rate,control_rate,data_layer,data_status,source_type,claim_boundary
+Affluent,API,1499,39,0.023893122752985795,183.348245496998,350,0.02601734489659773,0.2334889926617745,Synthetic,Derived,Synthetic customer/channel segments,Controls-testing segment diagnostics only
+Affluent,CARD,8167,114,0.014239541879359273,189.83162728051914,843,0.013958613934125138,0.10322027672339905,Synthetic,Derived,Synthetic customer/channel segments,Controls-testing segment diagnostics only
+Affluent,MOBILE,15235,172,0.012022752895060464,235.29964030193634,662,0.011289793239251724,0.04345257630456186,Synthetic,Derived,Synthetic customer/channel segments,Controls-testing segment diagnostics only
+Affluent,WEB,5439,22,0.005958107692389074,198.13759146902007,155,0.004044861187718331,0.028497885640742782,Synthetic,Derived,Synthetic customer/channel segments,Controls-testing segment diagnostics only
+Digital_Native,API,2093,57,0.026297515053033262,205.74150023889155,556,0.027233635929288104,0.2656473960821787,Synthetic,Derived,Synthetic customer/channel segments,Controls-testing segment diagnostics only
+Digital_Native,CARD,12136,174,0.015182183737082798,193.6059657218194,1326,0.014337508239947264,0.10926170072511536,Synthetic,Derived,Synthetic customer/channel segments,Controls-testing segment diagnostics only
+Digital_Native,MOBILE,22507,327,0.014738580240747536,236.81034922468567,1662,0.01452881325809748,0.07384369307326609,Synthetic,Derived,Synthetic customer/channel segments,Controls-testing segment diagnostics only
+Digital_Native,WEB,7934,49,0.00682973122575459,197.89273758507687,265,0.0061759516007058235,0.03340055457524578,Synthetic,Derived,Synthetic customer/channel segments,Controls-testing segment diagnostics only
+Mass,API,7144,182,0.02449862283211659,201.87056131019037,1693,0.02547592385218365,0.23698208286674133,Synthetic,Derived,Synthetic customer/channel segments,Controls-testing segment diagnostics only
+Mass,CARD,37896,587,0.015148416123994568,190.13148749208358,4248,0.015489761452396032,0.11209626345788473,Synthetic,Derived,Synthetic customer/channel segments,Controls-testing segment diagnostics only
+Mass,MOBILE,69735,802,0.011830736950091781,232.20176439377641,2997,0.011500681150068115,0.04297698429769843,Synthetic,Derived,Synthetic customer/channel segments,Controls-testing segment diagnostics only
+Mass,WEB,25182,85,0.005789242587578002,191.24509252640775,715,0.003375426892224605,0.02839329679930109,Synthetic,Derived,Synthetic customer/channel segments,Controls-testing segment diagnostics only
+SME,API,1752,53,0.023978088050432736,188.8291780821918,378,0.030251141552511414,0.21575342465753425,Synthetic,Derived,Synthetic customer/channel segments,Controls-testing segment diagnostics only
+SME,CARD,9310,142,0.014571149057292001,190.6208195488722,1012,0.015252416756176154,0.10870032223415682,Synthetic,Derived,Synthetic customer/channel segments,Controls-testing segment diagnostics only
+SME,MOBILE,17265,181,0.01208847379503774,232.08800752968435,777,0.010483637416739067,0.04500434404865335,Synthetic,Derived,Synthetic customer/channel segments,Controls-testing segment diagnostics only
+SME,WEB,6706,33,0.005599265917708998,194.49607217417238,171,0.004920966298836862,0.025499552639427377,Synthetic,Derived,Synthetic customer/channel segments,Controls-testing segment diagnostics only

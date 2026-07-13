@@ -1,0 +1,6 @@
+model_or_engine,data_layer,permitted_use,prohibited_use,owner,data_status,source_type,claim_boundary
+Observed champion,Governance,Ranking and historical economics,No live decisions or reason codes,Fraud Analytics,Proxy,Model/use governance,Educational use only
+Observed anomaly,Governance,Challenger analysis,No automatic decline,Model Risk,Proxy,Model/use governance,Educational use only
+Synthetic controls model,Governance,Controls and UAT testing,No observed performance claim,Fraud Strategy,Proxy,Model/use governance,Educational use only
+Hybrid engine,Governance,Decision governance demonstration,No live payment action,Fraud Platform,Proxy,Model/use governance,Educational use only
+Friendly-fraud claim score,Governance,Post-transaction claim review,No transaction-time decline,Disputes Team,Proxy,Model/use governance,Educational use only

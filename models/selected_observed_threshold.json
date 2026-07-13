@@ -1,0 +1,12 @@
+{
+  "calibrated_score_threshold": 0.00402902456160726,
+  "capacity_per_monitoring_period_proxy": 250,
+  "champion_model": "logistic_class_weight",
+  "false_positive_friction_cost": 2.0,
+  "formalisation_note": "Formalised during v1.0.1 public remediation; underlying code and selected threshold unchanged, not backdated as original Phase 0 lock.",
+  "investigation_cost_per_alert": 5.0,
+  "preventable_loss_rate": 0.7,
+  "selected_on": "validation",
+  "selection_rule": "Validation-only hierarchy: capacity PASS; realised net benefit > 0; fraud transaction recall >= 80%; precision >= 10%; fraud amount recall PASS if >= 80% or AMBER exception if 60%-80%; prefer PASS candidates, otherwise eligible AMBER; maximise validation realised net benefit with fraud-amount recall and precision as tie breakers. Final test does not influence selection.",
+  "target_alert_rate": 0.005
+}

@@ -1,0 +1,21 @@
+check_group,check_name,status,evidence,severity,owner,action_required
+Files,Project folder structure exists,PASS,All official folders created.,Info,Risk Analytics,None
+Observed data,Project 0 silver fraud file exists,PASS,Project 0 canonical silver fraud source,Info,Risk Analytics,None
+Observed data,Observed input copied to Project 5,PASS,data/observed/fraud_pca_input.csv.gz,Info,Risk Analytics,None
+Observed data,"Observed row count >= 100,000",PASS,"284,807 rows",Info,Risk Analytics,None
+Observed data,Observed fraud label has both classes,PASS,"492 fraud and 284,315 non-fraud",Info,Risk Analytics,None
+Observed data,Duplicate transaction_id count is zero,PASS,0 duplicates,Info,Risk Analytics,None
+Claim boundary,PCA variables not used as business reason codes,PASS,Locked in observed contract and design note.,Info,Risk Analytics,None
+Synthetic data,Synthetic input contract created before generation,PASS,Generation not performed in Phase 0.,Info,Risk Analytics,None
+Label methodology,Synthetic label anti-circularity rules documented,PASS,Hidden drivers separated from observable rule features.,Info,Risk Analytics,None
+Threshold economics,Investigation cost 5.00 recorded,PASS,governance/assumption_register.csv,Info,Risk Analytics,None
+Threshold economics,Preventable loss rate 70% recorded,PASS,governance/assumption_register.csv,Info,Risk Analytics,None
+Threshold economics,Alert capacity 250/day recorded,PASS,governance/assumption_register.csv,Info,Risk Analytics,None
+Threshold economics,False-positive friction cost 2.00 recorded,PASS,governance/assumption_register.csv,Info,Risk Analytics,None
+Threshold economics,Candidate threshold grid frozen,PASS,"0.05%, 0.10%, 0.20%, 0.50%, 1.00%, 2.00%, 5.00%.",Info,Risk Analytics,None
+Calibration,Calibration method and triggers frozen,PASS,Platt default; isotonic only under minimum evidence rule.,Info,Risk Analytics,None
+Friendly fraud,Friendly fraud treated as post-transaction claim risk,PASS,Separate synthetic_disputes.csv design.,Info,Risk Analytics,None
+Fairness,Operational segment groups documented,PASS,"new/established, domestic/cross-border, trusted/new device, frequency, synthetic segment.",Info,Risk Analytics,None
+Fairness,10pp review trigger documented,PASS,No legal fairness claim.,Info,Risk Analytics,None
+Cross-project linkage,P3/P6 linkage boundary documented,PASS,Contextual and governance only; no causality claim.,Info,Risk Analytics,None
+Model training,No model training performed in Phase 0,PASS,Phase 1 begins only after this gate.,Info,Risk Analytics,None

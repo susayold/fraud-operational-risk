@@ -1,0 +1,11 @@
+review_id,review_area,evidence,status,review_owner,independent_review_performed,independent_signoff_performed,data_layer,data_status,source_type,claim_boundary
+IR-01,Data lineage,"Source manifest, checksums and population reconciliation",EVIDENCE_PREPARED,Proposed independent review role,NO,NO,Governance,Derived,Independent review checklist,Portfolio review simulation
+IR-02,No test leakage,Ordered split and validation-only threshold,EVIDENCE_PREPARED,Proposed independent review role,NO,NO,Governance,Derived,Independent review checklist,Portfolio review simulation
+IR-03,Calibration governance,Platt fit outside test; isotonic gate respected,EVIDENCE_PREPARED,Proposed model risk role,NO,NO,Governance,Derived,Independent review checklist,Portfolio review simulation
+IR-04,Anti-circularity,Hidden mechanisms excluded from controls/model,EVIDENCE_PREPARED,Proposed independent review role,NO,NO,Governance,Derived,Independent review checklist,Portfolio review simulation
+IR-05,Reason-code integrity,No PCA names in investigator reason codes,EVIDENCE_PREPARED,Proposed fraud operations role,NO,NO,Governance,Derived,Independent review checklist,Portfolio review simulation
+IR-06,Threshold economics,Base assumptions frozen; sensitivities separate,EVIDENCE_PREPARED,Proposed risk committee role,NO,NO,Governance,Derived,Independent review checklist,Portfolio review simulation
+IR-07,Capacity feasibility,250/day model and stress tests,EVIDENCE_PREPARED,Proposed operations role,NO,NO,Governance,Derived,Independent review checklist,Portfolio review simulation
+IR-08,Operational segment diagnostics,10pp trigger and sample-size gate,EVIDENCE_PREPARED,Proposed conduct risk role,NO,NO,Governance,Derived,Independent review checklist,Portfolio review simulation
+IR-09,UAT/SIT/negative testing,Executable tests,EVIDENCE_PREPARED,Proposed technology risk role,NO,NO,Governance,Derived,Independent review checklist,Portfolio review simulation
+IR-10,Claims and limitations,Observed/synthetic separation,EVIDENCE_PREPARED,Proposed model governance role,NO,NO,Governance,Derived,Independent review checklist,Portfolio review simulation

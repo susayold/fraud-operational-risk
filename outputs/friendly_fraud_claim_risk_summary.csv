@@ -1,0 +1,6 @@
+metric,value,unit,data_layer,data_status,source_type,claim_boundary
+disputes,15000.0,count,Synthetic,Derived,Synthetic dispute claims,Post-transaction claim review only; separate from transaction fraud
+friendly_fraud_claims,976.0,count,Synthetic,Derived,Synthetic dispute claims,Post-transaction claim review only; separate from transaction fraud
+friendly_fraud_claim_rate,0.06506666666666666,ratio,Synthetic,Derived,Synthetic dispute claims,Post-transaction claim review only; separate from transaction fraud
+friendly_fraud_claim_amount,214931.99,cost_units,Synthetic,Derived,Synthetic dispute claims,Post-transaction claim review only; separate from transaction fraud
+transaction_fraud_overlap,9.0,count,Synthetic,Derived,Synthetic dispute claims,Post-transaction claim review only; separate from transaction fraud

@@ -1,0 +1,6 @@
+decision,transactions,fraud_transactions,transaction_amount,fraud_amount,expected_prevented_loss_proxy,population_share,fraud_rate,data_layer,data_status,source_type,claim_boundary
+ALLOW,232190,1841,48084808.9,373042.58999999997,290957.0537,0.92876,0.007928851371721436,Synthetic,Derived,Synthetic hybrid decision engine,Illustrative action routing only
+BLOCK_ACCOUNT,748,7,244666.53,753.25,2471.354,0.002992,0.009358288770053475,Synthetic,Derived,Synthetic hybrid decision engine,Illustrative action routing only
+HOLD,1298,42,290139.47,13991.899999999998,4887.8745,0.005192,0.032357473035439135,Synthetic,Derived,Synthetic hybrid decision engine,Illustrative action routing only
+MANUAL_REVIEW,4087,436,971690.51,31797.260000000002,14398.661,0.016348,0.1066797161732322,Synthetic,Derived,Synthetic hybrid decision engine,Illustrative action routing only
+STEP_UP,11677,693,3649248.12,96063.34,58873.164,0.046708,0.05934743512888584,Synthetic,Derived,Synthetic hybrid decision engine,Illustrative action routing only

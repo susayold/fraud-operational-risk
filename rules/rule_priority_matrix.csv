@@ -1,0 +1,10 @@
+priority,rule_family,decision,governance_rationale,data_layer,data_status,source_type,claim_boundary
+0,Invalid or missing critical input,DATA_EXCEPTION,Fail closed for invalid score scale,Synthetic,Proxy,Project 6 governance pattern adapted for fraud,"Control design, not a live decision hierarchy"
+1,Known blacklist / legal-style simulated block,BLOCK_ACCOUNT,Blacklist has precedence over model,Synthetic,Proxy,Project 6 governance pattern adapted for fraud,"Control design, not a live decision hierarchy"
+2,"Emergency ATO, duplicate or override misuse",HOLD/BLOCK_ACCOUNT,Immediate containment,Synthetic,Proxy,Project 6 governance pattern adapted for fraud,"Control design, not a live decision hierarchy"
+3,High-severity deterministic fraud rule,HOLD/MANUAL_REVIEW,Rule before model-only routing,Synthetic,Proxy,Project 6 governance pattern adapted for fraud,"Control design, not a live decision hierarchy"
+4,High calibrated model score,DECLINE/MANUAL_REVIEW,Amount-aware action,Synthetic,Proxy,Project 6 governance pattern adapted for fraud,"Control design, not a live decision hierarchy"
+5,High anomaly score,MANUAL_REVIEW,No fraud proof from anomaly alone,Synthetic,Proxy,Project 6 governance pattern adapted for fraud,"Control design, not a live decision hierarchy"
+6,Step-up rule,STEP_UP,Customer verification,Synthetic,Proxy,Project 6 governance pattern adapted for fraud,"Control design, not a live decision hierarchy"
+7,Manual review routing,MANUAL_REVIEW,Capacity controlled,Synthetic,Proxy,Project 6 governance pattern adapted for fraud,"Control design, not a live decision hierarchy"
+8,No material signal,ALLOW,Monitoring continues,Synthetic,Proxy,Project 6 governance pattern adapted for fraud,"Control design, not a live decision hierarchy"

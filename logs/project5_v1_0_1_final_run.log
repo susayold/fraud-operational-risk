@@ -1,0 +1,13 @@
+run_id=project5_v1_0_1_public_remediated
+project_version=Project5_FraudOperationalRisk_Gold_v1_0_1_PUBLIC_REMEDIATED
+random_seed=20260711
+package_mode=FULL_AND_AI_REVIEW_LIGHT
+start_timestamp=2026-07-13T05:07:03
+end_timestamp=2026-07-13T05:07:18
+environment=local Python execution
+validation_result=PASS
+validation_checks_passed=228
+validation_checks_total=228
+artifact_manifest_files=185
+manifest_integrity_result=written_after_manifest
+independent_organisational_signoff=NO

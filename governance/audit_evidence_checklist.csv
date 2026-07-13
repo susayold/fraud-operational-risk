@@ -1,0 +1,11 @@
+evidence_id,control_objective,artifact,status,owner,data_layer,data_status,source_type,claim_boundary
+AE-01,Phase 0 assumptions locked,governance/assumption_register.csv,PASS,Model Risk,Governance,Derived,Project artifact evidence,Portfolio audit evidence only
+AE-02,Observed population reconciled,data_contract/population_reconciliation.csv,PASS,Data Owner,Governance,Derived,Project artifact evidence,Portfolio audit evidence only
+AE-03,Train/validation/test separated,data_contract/observed_split_reconciliation.csv,PASS,Independent Validation,Governance,Derived,Project artifact evidence,Portfolio audit evidence only
+AE-04,Threshold selected on validation,models/selected_observed_threshold.json,PASS,Fraud Strategy,Governance,Derived,Project artifact evidence,Portfolio audit evidence only
+AE-05,Synthetic anti-circularity,validation/synthetic_anti_circularity_tests.csv,PASS,Independent Validation,Governance,Derived,Project artifact evidence,Portfolio audit evidence only
+AE-06,Rule inventory and priority,rules/fraud_rule_inventory.csv,PASS,Fraud Strategy,Governance,Derived,Project artifact evidence,Portfolio audit evidence only
+AE-07,Alert capacity evidence,outputs/alert_capacity_daily.csv,PASS,Fraud Operations,Governance,Derived,Project artifact evidence,Portfolio audit evidence only
+AE-08,Incident ownership,operational_risk/incident_register.csv,PASS,Operational Risk,Governance,Derived,Project artifact evidence,Portfolio audit evidence only
+AE-09,Fairness diagnostic,validation/operational_segment_fairness.csv,PASS,Conduct Risk,Governance,Derived,Project artifact evidence,Portfolio audit evidence only
+AE-10,Final validation,validation/validation_report.md,PASS,Independent Validation,Governance,Derived,Project artifact evidence,Portfolio audit evidence only

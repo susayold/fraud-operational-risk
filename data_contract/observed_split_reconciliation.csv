@@ -1,0 +1,4 @@
+split,rows,fraud_count,total_amount,fraud_amount,first_period,last_period,fraud_rate,fraud_amount_rate,data_layer,data_status,source_type,claim_boundary
+test,54807,73,4247259.9,7725.86,24,29,0.0013319466491506558,0.0018190221888705232,Observed,Derived,Ordered monitoring-period proxy split,Time semantics unavailable; split preserves source row order only
+train,170000,360,14838556.31,40167.619999999995,1,17,0.0021176470588235292,0.0027069762826542787,Observed,Derived,Ordered monitoring-period proxy split,Time semantics unavailable; split preserves source row order only
+validation,60000,59,6076773.8,12234.49,18,23,0.0009833333333333332,0.002013319962642019,Observed,Derived,Ordered monitoring-period proxy split,Time semantics unavailable; split preserves source row order only

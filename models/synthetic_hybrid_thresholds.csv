@@ -1,0 +1,5 @@
+threshold_id,component,validation_selection_rule,locked_threshold,linked_action,status,data_layer,data_status,source_type,claim_boundary
+synthetic_model_step_up,Model,Top 5% validation risk,0.0351682882799723,STEP_UP,Synthetic controls testing,Synthetic,Derived,Validation-only synthetic threshold design,Controls-testing thresholds; no live payment claim
+synthetic_model_review,Model,Top 1% validation risk,0.1200564421372306,MANUAL_REVIEW,Synthetic controls testing,Synthetic,Derived,Validation-only synthetic threshold design,Controls-testing thresholds; no live payment claim
+synthetic_model_decline,Model + amount,Top 0.1% validation risk and amount >= 1000,0.1241920447336838,DECLINE,Synthetic controls testing,Synthetic,Derived,Validation-only synthetic threshold design,Controls-testing thresholds; no live payment claim
+synthetic_anomaly_review,Anomaly,Top 0.5% validation anomaly,0.9950960772212802,MANUAL_REVIEW,Synthetic controls testing,Synthetic,Derived,Validation-only synthetic threshold design,Controls-testing thresholds; no live payment claim

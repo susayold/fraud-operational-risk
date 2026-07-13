@@ -1,0 +1,7 @@
+p3_synthetic_risk_grade_context,customers,mean_pd_context,population_share,data_layer,data_status,source_type,claim_boundary
+A,10005,0.1,0.2001,Synthetic,Derived,Frozen P3 contextual distribution,Portable regeneration reference; no observed credit-fraud relationship
+B,14381,0.16,0.28762,Synthetic,Derived,Frozen P3 contextual distribution,Portable regeneration reference; no observed credit-fraud relationship
+C,12588,0.22,0.25176,Synthetic,Derived,Frozen P3 contextual distribution,Portable regeneration reference; no observed credit-fraud relationship
+D,7576,0.29,0.15152,Synthetic,Derived,Frozen P3 contextual distribution,Portable regeneration reference; no observed credit-fraud relationship
+E,3480,0.36,0.0696,Synthetic,Derived,Frozen P3 contextual distribution,Portable regeneration reference; no observed credit-fraud relationship
+F_G,1970,0.44,0.0394,Synthetic,Derived,Frozen P3 contextual distribution,Portable regeneration reference; no observed credit-fraud relationship

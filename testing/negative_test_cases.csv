@@ -1,0 +1,17 @@
+test_case_id,negative_condition,expected_control,actual_control_result,status,evidence,data_layer,data_status,source_type,claim_boundary
+NEG-001,Null risk score rejected,Condition detected or rejected,Detected,PASS,Executable validation expression/reference function,Mixed,Derived,Executable negative controls,Portfolio negative-test evidence
+NEG-002,Invalid class detected,Condition detected or rejected,Detected,PASS,Executable validation expression/reference function,Mixed,Derived,Executable negative controls,Portfolio negative-test evidence
+NEG-003,Negative amount rejected,Condition detected or rejected,Detected,PASS,Executable validation expression/reference function,Mixed,Derived,Executable negative controls,Portfolio negative-test evidence
+NEG-004,Duplicate ID detected,Condition detected or rejected,Detected,PASS,Executable validation expression/reference function,Mixed,Derived,Executable negative controls,Portfolio negative-test evidence
+NEG-005,Timestamp disorder detected,Condition detected or rejected,Detected,PASS,Executable validation expression/reference function,Mixed,Derived,Executable negative controls,Portfolio negative-test evidence
+NEG-006,Rule priority blacklist wins,Condition detected or rejected,Detected,PASS,Executable validation expression/reference function,Mixed,Derived,Executable negative controls,Portfolio negative-test evidence
+NEG-007,Missing feature routes exception,Condition detected or rejected,Detected,PASS,Executable validation expression/reference function,Mixed,Derived,Executable negative controls,Portfolio negative-test evidence
+NEG-008,Missing model file detectable,Condition detected or rejected,Detected,PASS,Executable validation expression/reference function,Mixed,Derived,Executable negative controls,Portfolio negative-test evidence
+NEG-009,Score scale mismatch blocked,Condition detected or rejected,Detected,PASS,Executable validation expression/reference function,Mixed,Derived,Executable negative controls,Portfolio negative-test evidence
+NEG-010,Alert queue overflow detected,Condition detected or rejected,Detected,PASS,Executable validation expression/reference function,Mixed,Derived,Executable negative controls,Portfolio negative-test evidence
+NEG-011,SLA breach detectable,Condition detected or rejected,Detected,PASS,Executable validation expression/reference function,Mixed,Derived,Executable negative controls,Portfolio negative-test evidence
+NEG-012,Missing reason code detectable,Condition detected or rejected,Detected,PASS,Executable validation expression/reference function,Mixed,Derived,Executable negative controls,Portfolio negative-test evidence
+NEG-013,Missing action owner detectable,Condition detected or rejected,Detected,PASS,Executable validation expression/reference function,Mixed,Derived,Executable negative controls,Portfolio negative-test evidence
+NEG-014,Negative incident loss rejected,Condition detected or rejected,Detected,PASS,Executable validation expression/reference function,Mixed,Derived,Executable negative controls,Portfolio negative-test evidence
+NEG-015,Recovery above gross loss rejected,Condition detected or rejected,Detected,PASS,Executable validation expression/reference function,Mixed,Derived,Executable negative controls,Portfolio negative-test evidence
+NEG-016,Observed sample base control valid,Condition detected or rejected,Detected,PASS,Executable validation expression/reference function,Mixed,Derived,Executable negative controls,Portfolio negative-test evidence

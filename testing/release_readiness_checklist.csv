@@ -1,0 +1,14 @@
+release_control,status,evidence,owner,signoff_type,actual_organisational_approval,data_layer,data_status,source_type,claim_boundary
+Model evidence prepared,SIMULATED_PASS,models/champion_model_card.md,Simulated governance role,Portfolio simulation,NO,Governance,Derived,Project control evidence,No production release claim
+Threshold evidence prepared,SIMULATED_PASS,reports/threshold_recommendation_memo.md,Simulated governance role,Portfolio simulation,NO,Governance,Derived,Project control evidence,No production release claim
+Rule inventory evidence prepared,SIMULATED_PASS,rules/fraud_rule_inventory.csv,Simulated governance role,Portfolio simulation,NO,Governance,Derived,Project control evidence,No production release claim
+UAT simulated pass,SIMULATED_PASS,testing/uat_test_cases.csv,Simulated governance role,Portfolio simulation,NO,Governance,Derived,Project control evidence,No production release claim
+SIT simulated pass,SIMULATED_PASS,testing/sit_test_cases.csv,Simulated governance role,Portfolio simulation,NO,Governance,Derived,Project control evidence,No production release claim
+Negative tests simulated pass,SIMULATED_PASS,testing/negative_test_cases.csv,Simulated governance role,Portfolio simulation,NO,Governance,Derived,Project control evidence,No production release claim
+Capacity evidence prepared,SIMULATED_PASS,reports/alert_operations_report.md,Simulated governance role,Portfolio simulation,NO,Governance,Derived,Project control evidence,No production release claim
+Customer-friction review evidence prepared,SIMULATED_PASS,reports/operational_segment_fairness_note.md,Simulated governance role,Portfolio simulation,NO,Governance,Derived,Project control evidence,No production release claim
+Fallback logic tested,SIMULATED_PASS,testing/sit_test_cases.csv,Simulated governance role,Portfolio simulation,NO,Governance,Derived,Project control evidence,No production release claim
+Monitoring evidence prepared,SIMULATED_PASS,governance/monitoring_plan.csv,Simulated governance role,Portfolio simulation,NO,Governance,Derived,Project control evidence,No production release claim
+Rollback plan prepared,SIMULATED_PASS,testing/rollback_plan.md,Simulated governance role,Portfolio simulation,NO,Governance,Derived,Project control evidence,No production release claim
+Incident communication prepared,SIMULATED_PASS,testing/incident_management_playbook.md,Simulated governance role,Portfolio simulation,NO,Governance,Derived,Project control evidence,No production release claim
+Audit evidence prepared,SIMULATED_PASS,governance/audit_evidence_checklist.csv,Simulated governance role,Portfolio simulation,NO,Governance,Derived,Project control evidence,No production release claim

@@ -1,0 +1,19 @@
+test_case_id,integration_control,expected_result,actual_result,status,evidence,data_layer,data_status,source_type,claim_boundary
+SIT-001,Observed data loads,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence
+SIT-002,Synthetic data loads,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence
+SIT-003,Observed score scale 0-1,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence
+SIT-004,Synthetic score scale 0-1,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence
+SIT-005,Anomaly score mapping 0-1,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence
+SIT-006,Rule engine output,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence
+SIT-007,Hybrid decision output,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence
+SIT-008,Alert queue output,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence
+SIT-009,Incident register output,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence
+SIT-010,Reporting outputs present,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence
+SIT-011,Missing-score spike routes exceptions,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence
+SIT-012,Score scale mismatch 0-100 blocked,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence
+SIT-013,Device vendor unavailable fallback documented,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence
+SIT-014,Duplicate transaction hold,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence
+SIT-015,Capacity sensitivity generated,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence
+SIT-016,Friendly fraud claim layer separate,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence
+SIT-017,Observed and synthetic layers separated,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence
+SIT-018,Risk appetite output,PASS,PASS,PASS,Executable artifact or integration check,Mixed,Derived,Project integration tests,Portfolio SIT evidence

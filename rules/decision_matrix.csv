@@ -1,0 +1,10 @@
+condition_group,model_score_condition,secondary_condition,decision,operational_action,data_layer,data_status,source_type,claim_boundary
+Missing/invalid critical input,Any,Any,DATA_EXCEPTION,Exception queue,Synthetic,Derived,Validation-locked hybrid control design,Illustrative controls-testing decisions
+Blacklist or override misuse,Any,Any,BLOCK_ACCOUNT,Immediate escalation,Synthetic,Derived,Validation-locked hybrid control design,Illustrative controls-testing decisions
+Critical ATO or duplicate,Any,Any,HOLD,Identity/payment verification,Synthetic,Derived,Validation-locked hybrid control design,Illustrative controls-testing decisions
+Extreme model risk and material amount,>=0.124192,amount >= 1000,DECLINE,Validation top 0.1%; senior override only,Synthetic,Derived,Validation-locked hybrid control design,Illustrative controls-testing decisions
+Model review band,>=0.120056,Any,MANUAL_REVIEW,Validation top 1%,Synthetic,Derived,Validation-locked hybrid control design,Illustrative controls-testing decisions
+Anomaly review band,Any,>=0.995096,MANUAL_REVIEW,Validation top 0.5%; no automatic decline,Synthetic,Derived,Validation-locked hybrid control design,Illustrative controls-testing decisions
+Quality rule plus model support,>=0.050000,Governed quality rule,MANUAL_REVIEW,Reduce low-yield rule workload,Synthetic,Derived,Validation-locked hybrid control design,Illustrative controls-testing decisions
+Moderate model/rule signal,>=0.035168,or high rule,STEP_UP,Validation top 5%,Synthetic,Derived,Validation-locked hybrid control design,Illustrative controls-testing decisions
+Low combined risk,<0.035168,No material rule,ALLOW,Passive monitoring,Synthetic,Derived,Validation-locked hybrid control design,Illustrative controls-testing decisions

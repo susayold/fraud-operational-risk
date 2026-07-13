@@ -1,0 +1,7 @@
+top_transaction_share,transactions,fraud_transactions,fraud_recall,fraud_amount_recall,data_layer,data_status,source_type,claim_boundary
+0.001,285,0,0.0,0.0,Observed,Derived,Amount-only ordering,"EDA benchmark, not a fraud control"
+0.005,1425,3,0.006097560975609756,0.09048168431430498,Observed,Derived,Amount-only ordering,"EDA benchmark, not a fraud control"
+0.01,2849,9,0.018292682926829267,0.22015261782494902,Observed,Derived,Amount-only ordering,"EDA benchmark, not a fraud control"
+0.02,5697,23,0.046747967479674794,0.402847127551454,Observed,Derived,Amount-only ordering,"EDA benchmark, not a fraud control"
+0.05,14241,43,0.08739837398373984,0.5786169065744278,Observed,Derived,Amount-only ordering,"EDA benchmark, not a fraud control"
+0.1,28481,85,0.17276422764227642,0.7810988796062797,Observed,Derived,Amount-only ordering,"EDA benchmark, not a fraud control"

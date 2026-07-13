@@ -1,0 +1,73 @@
+test_case_id,status,evidence,test_suite,executed_by,execution_date,evidence_status,data_layer,data_status,source_type,claim_boundary
+UAT-001,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-002,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-003,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-004,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-005,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-006,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-007,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-008,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-009,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-010,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-011,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-012,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-013,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-014,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-015,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-016,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-017,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-018,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-019,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-020,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-021,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-022,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-023,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-024,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-025,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-026,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-027,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-028,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-029,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-030,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-031,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-032,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-033,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-034,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-035,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-036,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-037,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+UAT-038,PASS,Executed shared decision_for_record reference function,UAT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-001,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-002,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-003,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-004,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-005,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-006,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-007,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-008,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-009,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-010,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-011,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-012,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-013,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-014,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-015,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-016,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-017,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+SIT-018,PASS,Executable artifact or integration check,SIT,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+NEG-001,PASS,Executable validation expression/reference function,Negative,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+NEG-002,PASS,Executable validation expression/reference function,Negative,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+NEG-003,PASS,Executable validation expression/reference function,Negative,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+NEG-004,PASS,Executable validation expression/reference function,Negative,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+NEG-005,PASS,Executable validation expression/reference function,Negative,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+NEG-006,PASS,Executable validation expression/reference function,Negative,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+NEG-007,PASS,Executable validation expression/reference function,Negative,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+NEG-008,PASS,Executable validation expression/reference function,Negative,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+NEG-009,PASS,Executable validation expression/reference function,Negative,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+NEG-010,PASS,Executable validation expression/reference function,Negative,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+NEG-011,PASS,Executable validation expression/reference function,Negative,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+NEG-012,PASS,Executable validation expression/reference function,Negative,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+NEG-013,PASS,Executable validation expression/reference function,Negative,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+NEG-014,PASS,Executable validation expression/reference function,Negative,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+NEG-015,PASS,Executable validation expression/reference function,Negative,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence
+NEG-016,PASS,Executable validation expression/reference function,Negative,Automated Project 5 pipeline,2026-07-11,Retained,Mixed,Derived,Executable tests,Portfolio test evidence

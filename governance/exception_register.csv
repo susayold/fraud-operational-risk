@@ -1,0 +1,5 @@
+exception_id,exception,impact,severity,owner,status,remediation,data_layer,data_status,source_type,claim_boundary
+EXC-01,Original Time unavailable,Observed split uses monitoring-period proxy,Medium,Fraud Analytics,Open limitation,Recover original source Time,Governance,Proxy,Known limitation register,No production waiver
+EXC-02,PCA features uninterpretable,No observed-layer reason codes,High,Model Risk,Accepted for benchmark,Use synthetic observable layer for controls testing,Governance,Proxy,Known limitation register,No production waiver
+EXC-03,Validation fraud count below isotonic gate,Platt calibration only,Medium,Model Risk,Accepted,Reassess with larger production sample,Governance,Proxy,Known limitation register,No production waiver
+EXC-04,Synthetic operations outcomes,Cannot claim realised operational performance,High,Operational Risk,Permanent claim boundary,Replace with governed production data before deployment,Governance,Proxy,Known limitation register,No production waiver

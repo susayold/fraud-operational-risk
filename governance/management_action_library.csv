@@ -1,0 +1,8 @@
+action_id,trigger,management_action,owner,target_timeline,data_layer,data_status,source_type,claim_boundary
+ACT-01,Alert backlog breach,"Protect critical queue, surge staffing, tune low-value rules",Fraud Operations,24 hours,Governance,Proxy,Management action library,Educational governance design
+ACT-02,Fraud amount recall red,Lower governed threshold and review missed fraud,Fraud Strategy,5 days,Governance,Proxy,Management action library,Educational governance design
+ACT-03,Critical rule failure,Fail-safe mode and rollback,Fraud Platform,Immediate,Governance,Proxy,Management action library,Educational governance design
+ACT-04,Model drift,Recalibration/challenger review,Fraud Analytics,10 days,Governance,Proxy,Management action library,Educational governance design
+ACT-05,Operational disparity >10pp,"Driver analysis, mitigation and residual-risk acceptance",Conduct Risk,20 days,Governance,Proxy,Management action library,Educational governance design
+ACT-06,Override misuse,"Suspend access, preserve logs, launch RCA",Operational Risk,Immediate,Governance,Proxy,Management action library,Educational governance design
+ACT-07,Vendor outage,"Invoke fallback, vendor escalation, impact review",Vendor Management,Immediate,Governance,Proxy,Management action library,Educational governance design

@@ -1,0 +1,6 @@
+entity,row_count,data_layer,data_status,source_type,claim_boundary
+customers,50000,Synthetic,Derived,Synthetic entity generator,Controls-testing population only
+devices,65000,Synthetic,Derived,Synthetic entity generator,Controls-testing population only
+beneficiaries,90000,Synthetic,Derived,Synthetic entity generator,Controls-testing population only
+transactions,250000,Synthetic,Derived,Synthetic entity generator,Controls-testing population only
+operational_days,30,Synthetic,Derived,Synthetic entity generator,Controls-testing population only

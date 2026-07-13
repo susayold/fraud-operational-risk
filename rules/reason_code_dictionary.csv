@@ -1,0 +1,21 @@
+reason_code,investigator_label,observable_basis,source,linked_action,data_layer,data_status,source_type,claim_boundary
+RC_BLACKLIST,Known blacklist,Beneficiary blacklist flag,Rule,Block and escalate,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_ATO_CRITICAL,Account takeover indicator,ATO signal and OTP failures,Rule,Hold and verify,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_DEVICE_UNSAFE,Unsafe device,Rooted/emulated device,Rule,Hold or step-up,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_NEW_BENEFICIARY,New high-risk beneficiary,Beneficiary age/risk and amount,Rule,Review,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_MULE_NETWORK,Mule-network pattern,Shared device and beneficiary risk,Rule,Review,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_HIGH_VELOCITY,High transaction velocity,Ten-minute transaction count,Rule,Hold,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_UNUSUAL_AMOUNT,Unusual transaction amount,Amount spike and 24-hour amount,Rule,Review,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_CARD_TESTING,Card-testing pattern,Low amount and high velocity,Rule,Hold,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_AUTH_FAILURE,Authentication failure,Failed OTP count,Rule,Step-up,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_GEO_MISMATCH,Geographic mismatch,"Country, device and IP signals",Rule,Hold,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_IMPOSSIBLE_TRAVEL,Impossible-travel proxy,Distance and country mismatch,Rule,Review,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_BEHAVIOUR_CHANGE,Behaviour change,Night transaction and amount spike,Rule,Step-up,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_MERCHANT_DEVICE,Merchant-device risk,"Merchant, amount and device trust",Rule,Review,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_OVERRIDE_MISUSE,Override misuse,Privileged override and amount,Rule,Block,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_DUPLICATE_TXN,Duplicate transaction,Duplicate marker,Rule,Hold,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_MODEL_HIGH,High model score,Synthetic observable-feature score,Model,Review,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_ANOMALY_HIGH,High anomaly score,Synthetic anomaly percentile,Anomaly,Review,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_MISSING_DATA,Missing critical data,Input validation,Validation,Exception,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_INVALID_SCORE,Invalid score scale,Score outside 0-1,Validation,Release block,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names
+RC_LOW_RISK,Low combined risk,No material rule or score,Hybrid,Allow,Synthetic,Proxy,Synthetic observable controls,Reason codes never use observed PCA names

@@ -1,0 +1,7 @@
+population_step,row_count,reconciliation_status,data_layer,data_status,source_type,claim_boundary
+Raw transactions,284807,PASS,Observed,Observed,Project 0 silver PCA fraud transactions,Population control only; no investigator workflow claim
+Less exact duplicates,0,PASS,Observed,Observed,Project 0 silver PCA fraud transactions,Population control only; no investigator workflow claim
+Less invalid fraud class,0,PASS,Observed,Observed,Project 0 silver PCA fraud transactions,Population control only; no investigator workflow claim
+Less invalid amount,0,PASS,Observed,Observed,Project 0 silver PCA fraud transactions,Population control only; no investigator workflow claim
+Less unusable feature rows,0,PASS,Observed,Observed,Project 0 silver PCA fraud transactions,Population control only; no investigator workflow claim
+Eligible observed benchmark population,284807,PASS,Observed,Observed,Project 0 silver PCA fraud transactions,Population control only; no investigator workflow claim

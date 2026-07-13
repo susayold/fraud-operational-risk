@@ -1,0 +1,11 @@
+metric,evidence_layer,frequency,trigger,management_action,owner,data_layer,data_status,source_type,claim_boundary
+Observed PR-AUC,Observed,Monthly,<80% of baseline,Model review,Fraud Analytics,Governance,Proxy,Monitoring design,Illustrative controls and triggers
+Score PSI,Observed,Monthly,>0.25,Investigate drift and recalibrate,Model Risk,Governance,Proxy,Monitoring design,Illustrative controls and triggers
+Fraud amount recall,Observed,Weekly,<60%,Threshold/rule review,Fraud Strategy,Governance,Proxy,Monitoring design,Illustrative controls and triggers
+Alert precision,Synthetic/production analogue,Daily,<5%,Tune rules and queue,Fraud Operations,Governance,Proxy,Monitoring design,Illustrative controls and triggers
+Alerts per day,Synthetic/production analogue,Daily,>250,Capacity escalation,Fraud Operations,Governance,Proxy,Monitoring design,Illustrative controls and triggers
+Critical SLA breach,Synthetic/production analogue,Daily,>5%,Immediate incident,Fraud Operations,Governance,Proxy,Monitoring design,Illustrative controls and triggers
+Critical rule failure,Control,Continuous,>0,Fail-safe and rollback,Fraud Platform,Governance,Proxy,Monitoring design,Illustrative controls and triggers
+Device vendor outage,Control,Continuous,>30 minutes,Fallback mode,Vendor Management,Governance,Proxy,Monitoring design,Illustrative controls and triggers
+Override misuse,Control,Weekly,>0,Access suspension and RCA,Operational Risk,Governance,Proxy,Monitoring design,Illustrative controls and triggers
+Operational segment gap,Synthetic/production analogue,Monthly,>10pp,Root-cause and mitigation,Conduct Risk,Governance,Proxy,Monitoring design,Illustrative controls and triggers

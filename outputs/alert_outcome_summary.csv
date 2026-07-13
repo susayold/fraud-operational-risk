@@ -1,0 +1,21 @@
+review_priority,outcome,alerts,amount,average_handling_minutes,sla_breaches,prevented_loss_proxy,recovery_proxy,sla_breach_rate,data_layer,data_status,source_type,claim_boundary
+CRITICAL,CONFIRMED_FRAUD,2,128.68,26.0,0,109.38,19.3,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+CRITICAL,CUSTOMER_AUTHORISED,9,6943.67,26.11111111111111,0,0.0,0.0,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+CRITICAL,DUPLICATE,8,2699.07,25.375,0,0.0,0.0,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+CRITICAL,LEGITIMATE,126,46790.08,25.57936507936508,0,0.0,0.0,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+CRITICAL,PENDING,5,349.66,25.0,0,0.0,0.0,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+CRITICAL,SYSTEM_ERROR,2,466.89,25.0,0,0.0,0.0,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+HIGH,CONFIRMED_FRAUD,44,33712.09,18.34090909090909,0,18297.73,5056.84,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+HIGH,CUSTOMER_AUTHORISED,110,102667.56,18.5,0,0.0,0.0,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+HIGH,DUPLICATE,78,55154.27,18.435897435897434,0,0.0,0.0,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+HIGH,LEGITIMATE,1205,792537.41,18.54688796680498,0,0.0,0.0,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+HIGH,PENDING,34,22706.22,18.647058823529413,0,0.0,0.0,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+HIGH,SUSPECTED_FRAUD,3,706.91,19.333333333333332,0,494.83,0.0,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+HIGH,SYSTEM_ERROR,53,32050.08,18.81132075471698,0,0.0,0.0,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+MEDIUM,CONFIRMED_FRAUD,373,8655.12,12.420911528150134,0,3894.7,1298.19,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+MEDIUM,CUSTOMER_AUTHORISED,276,12349.380000000001,12.630434782608695,0,0.0,0.0,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+MEDIUM,DUPLICATE,195,14223.74,12.65128205128205,0,0.0,0.0,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+MEDIUM,LEGITIMATE,2777,175419.25,12.537630536550234,0,0.0,0.0,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+MEDIUM,PENDING,90,5245.73,12.8,0,0.0,0.0,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+MEDIUM,SUSPECTED_FRAUD,40,633.41,12.825,0,285.05,0.0,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only
+MEDIUM,SYSTEM_ERROR,107,5768.81,12.317757009345794,0,0.0,0.0,0.0,Synthetic,Derived,Synthetic alert investigation outcomes,Simulated operational evidence only

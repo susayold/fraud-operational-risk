@@ -1,0 +1,7 @@
+test_id,measure,value,status,data_layer,data_status,source_type,claim_boundary
+label_is_stochastic,fraud_label sampled from latent probability,3019.0,PASS,Synthetic,Derived,Synthetic label anti-circularity audit,"Methodology control, not observed fraud evidence"
+obvious_rule_precision_below_100pct,precision,0.020081411126187245,PASS,Synthetic,Derived,Synthetic label anti-circularity audit,"Methodology control, not observed fraud evidence"
+obvious_rule_recall_below_100pct,recall,0.22060284862537263,PASS,Synthetic,Derived,Synthetic label anti-circularity audit,"Methodology control, not observed fraud evidence"
+fraud_without_obvious_rule_exists,fraud rows not firing obvious rule,2353.0,PASS,Synthetic,Derived,Synthetic label anti-circularity audit,"Methodology control, not observed fraud evidence"
+legitimate_rule_hits_exist,legitimate rows firing obvious rule,32499.0,PASS,Synthetic,Derived,Synthetic label anti-circularity audit,"Methodology control, not observed fraud evidence"
+hidden_fields_excluded_from_model,hidden feature count used,0.0,PASS,Synthetic,Derived,Synthetic label anti-circularity audit,"Methodology control, not observed fraud evidence"

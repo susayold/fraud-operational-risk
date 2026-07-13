@@ -1,0 +1,8 @@
+scenario,alerts_per_day,capacity_per_day,capacity_utilisation,daily_backlog_addition,required_analysts_7_5h,estimated_handling_hours,status,data_layer,data_status,source_type,claim_boundary
+Base,184.56666666666666,250.0,0.7382666666666666,0.0,6.0,44.77333333333333,PASS,Synthetic,Proxy,Pre-specified workload sensitivity,Illustrative operations capacity only
+Alert volume +25%,230.70833333333331,250.0,0.9228333333333333,0.0,8.0,55.96666666666667,PASS,Synthetic,Proxy,Pre-specified workload sensitivity,Illustrative operations capacity only
+Alert volume +50%,276.85,250.0,1.1074000000000002,26.850000000000023,9.0,67.16000000000001,BREACH,Synthetic,Proxy,Pre-specified workload sensitivity,Illustrative operations capacity only
+Handling time +20%,184.56666666666666,250.0,0.7382666666666666,0.0,8.0,53.727999999999994,PASS,Synthetic,Proxy,Pre-specified workload sensitivity,Illustrative operations capacity only
+Analyst absence 20%,184.56666666666666,200.0,0.9228333333333333,0.0,6.0,44.77333333333333,PASS,Synthetic,Proxy,Pre-specified workload sensitivity,Illustrative operations capacity only
+Threshold tightened,249.16500000000002,250.0,0.9966600000000001,0.0,9.0,63.46620000000001,PASS,Synthetic,Proxy,Pre-specified workload sensitivity,Illustrative operations capacity only
+Critical incident spike,295.3066666666667,225.0,1.3124740740740741,70.30666666666667,12.0,89.54666666666665,BREACH,Synthetic,Proxy,Pre-specified workload sensitivity,Illustrative operations capacity only

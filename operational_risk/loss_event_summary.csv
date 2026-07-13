@@ -1,0 +1,14 @@
+incident_type,root_cause_category,incident_count,gross_loss,recovery,net_loss,customer_count,open_actions,recovery_rate,data_layer,data_status,source_type,claim_boundary
+Customer-treatment failure,Rule configuration,2,21100,8000,13100,1560,1,0.3791469194312796,Synthetic,Derived,Synthetic incident register,Operational loss scenario summary only
+Data failure,Data,2,31300,4300,27000,308,1,0.13738019169329074,Synthetic,Derived,Synthetic incident register,Operational loss scenario summary only
+Governance,Governance,1,6400,0,6400,0,0,0.0,Synthetic,Derived,Synthetic incident register,Operational loss scenario summary only
+Internal fraud,Governance,1,68000,12000,56000,37,0,0.17647058823529413,Synthetic,Derived,Synthetic incident register,Operational loss scenario summary only
+Model/control failure,Data,1,42000,8000,34000,125,0,0.19047619047619047,Synthetic,Derived,Synthetic incident register,Operational loss scenario summary only
+Model/control failure,Rule configuration,1,8900,1300,7600,44,0,0.14606741573033707,Synthetic,Derived,Synthetic incident register,Operational loss scenario summary only
+Model/control failure,System,1,17400,2700,14700,95,0,0.15517241379310345,Synthetic,Derived,Synthetic incident register,Operational loss scenario summary only
+Process failure,Capacity,1,33800,5000,28800,190,0,0.14792899408284024,Synthetic,Derived,Synthetic incident register,Operational loss scenario summary only
+Process failure,Model,1,3800,0,3800,85,0,0.0,Synthetic,Derived,Synthetic incident register,Operational loss scenario summary only
+Process failure,Process,1,11200,5200,6000,18,1,0.4642857142857143,Synthetic,Derived,Synthetic incident register,Operational loss scenario summary only
+Process failure,Rule configuration,1,9200,0,9200,310,1,0.0,Synthetic,Derived,Synthetic incident register,Operational loss scenario summary only
+System failure,System,2,54600,8500,46100,870,1,0.15567765567765568,Synthetic,Derived,Synthetic incident register,Operational loss scenario summary only
+Third-party failure,Vendor,3,77000,11500,65500,2292,1,0.14935064935064934,Synthetic,Derived,Synthetic incident register,Operational loss scenario summary only

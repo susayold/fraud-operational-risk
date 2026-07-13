@@ -1,0 +1,30 @@
+feature,data_layer,status,model_use,business_interpretability,reason_code_eligible,governance_action,source_type,claim_boundary
+v1,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v2,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v3,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v4,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v5,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v6,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v7,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v8,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v9,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v10,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v11,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v12,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v13,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v14,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v15,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v16,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v17,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v18,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v19,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v20,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v21,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v22,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v23,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v24,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v25,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v26,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v27,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+v28,Observed,Observed PCA,Predictive benchmark,Unavailable,No,Monitor distribution; do not attach semantic fraud meaning,Observed/Derived,No PCA business reason-code claim
+log_amount,Observed,Derived from observed amount,Predictive benchmark and amount economics,Transaction value,"Only as amount context, not fraud proof",Monitor extreme values and units,Observed/Derived,No PCA business reason-code claim

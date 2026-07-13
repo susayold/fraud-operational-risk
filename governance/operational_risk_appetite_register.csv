@@ -1,0 +1,6 @@
+metric,current_value,green_threshold,amber_threshold,red_threshold,status,threshold_status,owner,data_layer,data_status,source_type,claim_boundary
+Net operational loss,318200.0,<=250k,250k-500k,>500k,AMBER,Illustrative educational assumption,Operational Risk Committee,Synthetic,Proxy,Synthetic incident register,Scenario risk appetite only; not regulatory capital
+High/Critical incidents,12.0,<=2,3-5,>5,RED,Illustrative educational assumption,Operational Risk Committee,Synthetic,Proxy,Synthetic incident register,Scenario risk appetite only; not regulatory capital
+Repeat incidents,0.0,0,1,>1,GREEN,Illustrative educational assumption,Operational Risk Committee,Synthetic,Proxy,Synthetic incident register,Scenario risk appetite only; not regulatory capital
+Open remediation actions,6.0,<=2,3-5,>5,RED,Illustrative educational assumption,Operational Risk Committee,Synthetic,Proxy,Synthetic incident register,Scenario risk appetite only; not regulatory capital
+Recovery rate,0.17286197036651937,>=30%,15%-30%,<15%,AMBER,Illustrative educational assumption,Operational Risk Committee,Synthetic,Proxy,Synthetic incident register,Scenario risk appetite only; not regulatory capital

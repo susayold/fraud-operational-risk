@@ -1,0 +1,3 @@
+model_variant,test_pr_auc,test_roc_auc,test_brier_score,incremental_pr_auc_vs_without,data_layer,data_status,source_type,claim_boundary
+Without direct P3 context,0.06161732839598412,0.8010994712655038,0.010871450510152304,0.0,Synthetic,Derived,Synthetic P3 customer-context ablation,Simulated incremental value; no observed credit-fraud causality
+With direct synthetic P3 PD context,0.06596338167504803,0.7991971183146382,0.010868477133008187,0.004346053279063913,Synthetic,Derived,Synthetic P3 customer-context ablation,Simulated incremental value; no observed credit-fraud causality

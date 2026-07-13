@@ -1,0 +1,7 @@
+fraud_type,fraud_transactions,fraud_amount,average_amount,fraud_share,data_layer,data_status,source_type,claim_boundary
+ACCOUNT_TAKEOVER,198,58963.89,297.79742424242426,0.06558463067240808,Synthetic,Derived,Latent synthetic transaction-fraud labels,Controls testing only; friendly fraud excluded
+CARD_TESTING,899,13194.92,14.677330367074527,0.2977807220934084,Synthetic,Derived,Latent synthetic transaction-fraud labels,Controls testing only; friendly fraud excluded
+INTERNAL_PROCESS_MANIPULATION,300,53548.2,178.494,0.09937065253395164,Synthetic,Derived,Latent synthetic transaction-fraud labels,Controls testing only; friendly fraud excluded
+MERCHANT_COMPROMISE,682,171801.97,251.9090469208211,0.22590261676051673,Synthetic,Derived,Latent synthetic transaction-fraud labels,Controls testing only; friendly fraud excluded
+MULE_TRANSFER,61,17143.47,281.0404918032787,0.020205366015236835,Synthetic,Derived,Latent synthetic transaction-fraud labels,Controls testing only; friendly fraud excluded
+SOCIAL_ENGINEERING_APP,879,200995.89,228.66426621160412,0.2911560119244783,Synthetic,Derived,Latent synthetic transaction-fraud labels,Controls testing only; friendly fraud excluded

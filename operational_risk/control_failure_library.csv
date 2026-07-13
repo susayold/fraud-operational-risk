@@ -1,0 +1,11 @@
+failure_id,control_failure,root_cause_category,failure_mode,preventive_control,owner,inherent_severity,data_layer,data_status,source_type,claim_boundary
+CF-01,Model score scale mismatch,Model/Data,Score arrives 0-100 instead of 0-1,Release-block validation,Technology Risk,High,Synthetic,Proxy,Operational control failure library,Educational scenario design
+CF-02,Velocity feature stale,Data,Streaming aggregation stops refreshing,Freshness KRI and rules-only fallback,Fraud Platform,High,Synthetic,Proxy,Operational control failure library,Educational scenario design
+CF-03,New-device rule spike,Rule configuration,Vendor or rule change creates alert surge,Volume guardrail and rollback,Fraud Strategy,Medium,Synthetic,Proxy,Operational control failure library,Educational scenario design
+CF-04,Payroll false-positive block,Customer treatment,Legitimate recurring payments trigger control,Segment exclusion with monitoring,Fraud Strategy,High,Synthetic,Proxy,Operational control failure library,Educational scenario design
+CF-05,Device vendor outage,Vendor,External device intelligence unavailable,Conservative step-up fallback,Vendor Management,High,Synthetic,Proxy,Operational control failure library,Educational scenario design
+CF-06,Duplicate alert creation,System,Idempotency failure produces repeated alerts,Transaction-ID de-duplication,Payments Technology,Medium,Synthetic,Proxy,Operational control failure library,Educational scenario design
+CF-07,Investigation backlog,Capacity,Incoming alerts exceed staffed capacity,Priority queue and surge staffing,Fraud Operations,High,Synthetic,Proxy,Operational control failure library,Educational scenario design
+CF-08,Override misuse,Governance,High-risk block bypassed without dual approval,Override audit and access removal,Operational Risk,Critical,Synthetic,Proxy,Operational control failure library,Educational scenario design
+CF-09,Missing reason code,Process,Decision cannot be explained to investigator,Release validation,Model Governance,Medium,Synthetic,Proxy,Operational control failure library,Educational scenario design
+CF-10,Alert queue outage,System,Cases cannot enter investigator queue,Hold critical / allow low-risk fallback,Fraud Platform,Critical,Synthetic,Proxy,Operational control failure library,Educational scenario design

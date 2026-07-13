@@ -1,0 +1,8 @@
+artifact_or_process,owner,reviewer,approver,review_frequency,data_layer,data_status,source_type,claim_boundary
+Observed fraud model,Fraud Analytics,Model Risk,Risk Committee,Quarterly,Governance,Proxy,Project governance RACI,Educational ownership design
+Threshold economics,Fraud Strategy,Head of Fraud Risk,Risk Committee,Monthly,Governance,Proxy,Project governance RACI,Educational ownership design
+Fraud rules,Fraud Strategy,Fraud Operations,Change Advisory Board,Monthly,Governance,Proxy,Project governance RACI,Educational ownership design
+Hybrid decision engine,Fraud Platform,Model Governance,Risk Committee,Monthly,Governance,Proxy,Project governance RACI,Educational ownership design
+Alert operations,Fraud Operations,Head of Operations,Operations Committee,Daily,Governance,Proxy,Project governance RACI,Educational ownership design
+Operational incidents,Operational Risk,Business Owner,Operational Risk Committee,Monthly,Governance,Proxy,Project governance RACI,Educational ownership design
+Synthetic methodology,Fraud Analytics,Independent Validation,Model Risk Committee,At change,Governance,Proxy,Project governance RACI,Educational ownership design
