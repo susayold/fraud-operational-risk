@@ -1,7 +1,7 @@
 window.PORTFOLIO_PROJECTS = {
   "5": {
     number: "05",
-    status: "Gold v1.0.1 - recruiter ready",
+    status: "Completed | Controls and validation passed",
     statusClass: "complete",
     accent: "#b43c35",
     category: "Fraud Analytics & Operational Risk",
@@ -94,7 +94,7 @@ window.PORTFOLIO_PROJECTS = {
       { src: "assets/images/p5-period-rate.png", alt: "Observed fraud rate by monitoring period", caption: "Stability review: outcome prevalence is checked across ordered monitoring periods." }
     ],
     validation: {
-      headline: "Gold v1.0.1 passed full content, integrity and extracted-package validation.",
+      headline: "Content, integrity, testing and clean-package validation passed with no unresolved failures.",
       cards: [
         { title: "Validation", text: "228 of 228 checks passed with zero unresolved failures." },
         { title: "Manifest", text: "180 of 180 artifacts passed integrity checks." },
@@ -112,16 +112,15 @@ window.PORTFOLIO_PROJECTS = {
     employerValues: [
       { title: "Right metric choice", text: "I can evaluate rare-event models with PR-AUC, amount capture and threshold economics." },
       { title: "Detection to operations", text: "I can connect model scores to rules, alerts, capacity, incidents and RCA." },
-      { title: "Claim discipline", text: "I keep observed benchmark evidence separate from synthetic control demonstrations." }
+      { title: "Claim discipline", text: "I keep observed benchmark evidence separate from synthetic controls-testing evidence." }
     ],
     artifacts: [
-      { label: "Open complete FINAL package", type: "HTML", href: "OPEN_THIS_FIRST.html", detail: "Original reports, scripts, data, models and validation evidence" },
-      { label: "Project 5 README", type: "MD", href: "evidence/project-5/README.md", detail: "Architecture, results and claim boundary" },
+      { label: "Fraud & Operational Risk README", type: "MD", href: "evidence/project-5/README.md", detail: "Architecture, results and claim boundary" },
       { label: "Recruiter summary", type: "MD", href: "evidence/project-5/recruiter_summary.md", detail: "One-page business case" },
       { label: "Threshold recommendation", type: "MD", href: "evidence/project-5/threshold_recommendation_memo.md", detail: "Validation hierarchy and test outcome" },
       { label: "Validation report", type: "MD", href: "evidence/project-5/validation_report.md", detail: "228/228 final result" },
       { label: "Model comparison", type: "CSV", href: "evidence/project-5/model_comparison.csv", detail: "Champion and challenger metrics" }
     ],
-    next: { href: "#artifacts", label: "Evidence pack", title: "Supporting artifacts" }
+    next: { href: "#artifacts", label: "Evidence pack", title: "Supporting evidence" }
   }
 };
