@@ -1,6 +1,12 @@
 # Fraud Detection, Controls & Operational Risk
 
-## [OPEN LIVE PROJECT](https://susayold.github.io/fraud-operational-risk/)
+<p align="left">
+  <a href="https://susayold.github.io/fraud-operational-risk/">
+    <img src="https://img.shields.io/badge/VIEW_LIVE_PROJECT-B43C35?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" height="40" alt="View live Fraud and Operational Risk project">
+  </a>
+</p>
+
+**Live website:** [English / Tiếng Việt](https://susayold.github.io/fraud-operational-risk/)
 
 Interactive website with English and Vietnamese views. The live project is the recommended starting point.
 
