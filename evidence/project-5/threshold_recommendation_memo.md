@@ -12,7 +12,7 @@ Use the validation-selected **top 0.50% alert-rate policy**, equivalent to calib
 - Fraud recall: **81.36%**.
 - Fraud-amount recall: **63.46%**.
 - Precision: **16.00%**.
-- Realised net benefit: **3,431.07 cost units**.
+- Backtest net benefit under disclosed cost assumptions: **3,431.07 cost units**.
 - Capacity: **PASS**.
 
 ## Formal threshold-selection hierarchy
@@ -20,14 +20,14 @@ Use the validation-selected **top 0.50% alert-rate policy**, equivalent to calib
 Eligible validation candidate:
 
 1. Capacity status = PASS.
-2. Realised net benefit > 0.
+2. Backtest net benefit under disclosed cost assumptions > 0.
 3. Fraud transaction recall >= 80%.
 4. Precision >= 10%.
 5. Fraud amount recall:
    - PASS if >=80%.
    - AMBER exception if 60%-80%.
 
-Selection uses PASS candidates first. If no PASS candidate exists, eligible AMBER candidates may be used. Within the selected pool, the project maximises validation realised net benefit and uses fraud-amount recall and precision as tie breakers. The final test set must not influence selection.
+Selection uses PASS candidates first. If no PASS candidate exists, eligible AMBER candidates may be used. Within the selected pool, the project maximises validation backtest net benefit under disclosed cost assumptions and uses fraud-amount recall and precision as tie breakers. The final test set must not influence selection.
 
 This hierarchy was formalised during v1.0.1 public remediation. The underlying code and selected threshold were unchanged, and this is not backdated as the original Phase 0 lock.
 
@@ -37,7 +37,7 @@ This hierarchy was formalised during v1.0.1 public remediation. The underlying c
 - Fraud recall: **84.93%**.
 - Fraud-amount recall: **69.36%**.
 - Precision: **28.44%**.
-- Realised net benefit: **2,349.01 cost units**.
+- Backtest net benefit under disclosed cost assumptions: **2,349.01 cost units**.
 
 This is an observed historical backtest recommendation under illustrative cost assumptions. It is not a live authorisation threshold and requires re-estimation against real calendar throughput, recoveries, customer outcomes and investigator capacity before production use.
 

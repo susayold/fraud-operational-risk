@@ -436,7 +436,7 @@ def main() -> None:
         "Observed",
         "Derived",
         "Model ranking on validation/test",
-        "Realised amount capture; not guaranteed prevented loss",
+        "Observed amount capture; not guaranteed prevented loss",
     )
     write_csv(capture, "outputs/fraud_amount_capture_curve.csv")
 
@@ -848,7 +848,7 @@ The champion is a ranking benchmark, not a production fraud engine. Its value is
             "preventable_loss_rate": 0.70,
             "false_positive_friction_cost": 2.0,
             "capacity_per_monitoring_period_proxy": 250,
-            "selection_rule": "Validation-only hierarchy: capacity PASS; realised net benefit > 0; fraud transaction recall >= 80%; precision >= 10%; fraud amount recall PASS if >= 80% or AMBER exception if 60%-80%; prefer PASS candidates, otherwise eligible AMBER; maximise validation realised net benefit with fraud-amount recall and precision as tie breakers. Final test does not influence selection.",
+            "selection_rule": "Validation-only hierarchy: capacity PASS; backtest net benefit under disclosed cost assumptions > 0; fraud transaction recall >= 80%; precision >= 10%; fraud amount recall PASS if >= 80% or AMBER exception if 60%-80%; prefer PASS candidates, otherwise eligible AMBER; maximise validation backtest net benefit under disclosed cost assumptions with fraud-amount recall and precision as tie breakers. Final test does not influence selection.",
             "formalisation_note": "Formalised during v1.0.1 public remediation; underlying code and selected threshold unchanged, not backdated as original Phase 0 lock.",
         },
     )
@@ -918,7 +918,7 @@ Use the validation-selected **top {selected_rate:.2%} alert-rate policy**, equiv
 - Fraud recall: **{selected_row['fraud_recall']:.2%}**.
 - Fraud-amount recall: **{selected_row['fraud_amount_recall']:.2%}**.
 - Precision: **{selected_row['precision']:.2%}**.
-- Realised net benefit: **{selected_row['realised_net_benefit']:,.2f} cost units**.
+- Backtest net benefit under disclosed cost assumptions: **{selected_row['realised_net_benefit']:,.2f} cost units**.
 - Capacity: **{selected_row['capacity_status']}**.
 
 ## Formal threshold-selection hierarchy
@@ -926,14 +926,14 @@ Use the validation-selected **top {selected_rate:.2%} alert-rate policy**, equiv
 Eligible validation candidate:
 
 1. Capacity status = PASS.
-2. Realised net benefit > 0.
+2. Backtest net benefit under disclosed cost assumptions > 0.
 3. Fraud transaction recall >= 80%.
 4. Precision >= 10%.
 5. Fraud amount recall:
    - PASS if >=80%.
    - AMBER exception if 60%-80%.
 
-Selection uses PASS candidates first. If no PASS candidate exists, eligible AMBER candidates may be used. Within the selected pool, the project maximises validation realised net benefit and uses fraud-amount recall and precision as tie breakers. The final test set must not influence selection.
+Selection uses PASS candidates first. If no PASS candidate exists, eligible AMBER candidates may be used. Within the selected pool, the project maximises validation backtest net benefit under disclosed cost assumptions and uses fraud-amount recall and precision as tie breakers. The final test set must not influence selection.
 
 This hierarchy was formalised during v1.0.1 public remediation. The underlying code and selected threshold were unchanged, and this is not backdated as the original Phase 0 lock.
 
@@ -943,7 +943,7 @@ This hierarchy was formalised during v1.0.1 public remediation. The underlying c
 - Fraud recall: **{selected_test['fraud_recall']:.2%}**.
 - Fraud-amount recall: **{selected_test['fraud_amount_recall']:.2%}**.
 - Precision: **{selected_test['precision']:.2%}**.
-- Realised net benefit: **{selected_test['realised_net_benefit']:,.2f} cost units**.
+- Backtest net benefit under disclosed cost assumptions: **{selected_test['realised_net_benefit']:,.2f} cost units**.
 
 This is an observed historical backtest recommendation under illustrative cost assumptions. It is not a live authorisation threshold and requires re-estimation against real calendar throughput, recoveries, customer outcomes and investigator capacity before production use.
 

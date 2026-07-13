@@ -8,7 +8,7 @@ The observed benchmark contains 284,807 transactions and 492 fraud cases. `logis
 
 ## Economics and workload
 
-Test realised net benefit is **2,349.01 cost units** under frozen illustrative assumptions. The separate synthetic controls environment creates **5,537 investigation alerts**; capacity and SLA results are workload proxies, not observed operations.
+Test backtest net benefit under disclosed cost assumptions is **2,349.01 cost units** under frozen illustrative assumptions. The separate synthetic controls environment creates **5,537 investigation alerts**; capacity and SLA results are workload proxies, not observed operations.
 
 ## Synthetic hybrid economics context
 

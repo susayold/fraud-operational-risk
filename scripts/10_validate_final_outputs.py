@@ -275,7 +275,7 @@ def main() -> None:
     add("Threshold economics", "THR-002", "Recommended validation threshold within capacity", recommendation.iloc[0]["capacity_status"] == "PASS", str(recommendation.iloc[0]["alerts_per_monitoring_period_proxy"]))
     add("Threshold economics", "THR-003", "Recommended validation net benefit positive", recommendation.iloc[0]["realised_net_benefit"] > 0, str(recommendation.iloc[0]["realised_net_benefit"]))
     add("Threshold economics", "THR-004", "Candidate grid frozen and complete", set(np.round(economics["target_alert_rate"].unique(), 4)) == {0.0005, 0.001, 0.002, 0.005, 0.01, 0.02, 0.05}, str(sorted(economics["target_alert_rate"].unique())))
-    add("Threshold economics", "THR-005", "Realised and prospective economics separated", {"realised_prevented_loss_proxy", "prospective_expected_prevented_loss_proxy"}.issubset(economics.columns), "separate columns")
+    add("Threshold economics", "THR-005", "Backtest and prospective economics separated", {"realised_prevented_loss_proxy", "prospective_expected_prevented_loss_proxy"}.issubset(economics.columns), "separate columns")
 
     synthetic = pd.read_csv(ROOT / "data/synthetic/synthetic_transactions.csv.gz")
     add("Synthetic data", "SYN-001", "Synthetic transaction row count is 250,000", len(synthetic) == 250_000, f"rows={len(synthetic)}")

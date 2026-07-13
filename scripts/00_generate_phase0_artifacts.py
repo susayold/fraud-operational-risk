@@ -571,14 +571,14 @@ Alternative assumptions are sensitivity results, not replacements for the Base r
 Eligible validation candidate:
 
 1. Capacity status = PASS.
-2. Realised net benefit > 0.
+2. Backtest net benefit under disclosed cost assumptions > 0.
 3. Fraud transaction recall >= 80%.
 4. Precision >= 10%.
 5. Fraud amount recall:
    - PASS if >=80%.
    - AMBER exception if 60%-80%.
 
-Selection uses PASS candidates first. If no PASS candidate exists, eligible AMBER candidates may be used. Within the selected pool, maximise validation realised net benefit and use fraud-amount recall and precision as tie breakers. The final test set must not influence selection.
+Selection uses PASS candidates first. If no PASS candidate exists, eligible AMBER candidates may be used. Within the selected pool, maximise validation backtest net benefit under disclosed cost assumptions and use fraud-amount recall and precision as tie breakers. The final test set must not influence selection.
 
 Formalised during v1.0.1 public remediation. Underlying code and selected threshold unchanged; not backdated as the original Phase 0 lock.
 

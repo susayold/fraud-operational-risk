@@ -58,7 +58,7 @@ window.PORTFOLIO_PROJECTS = {
       {
         title: "Locked alert policy",
         note: "The score threshold was selected on validation and then applied unchanged to the untouched test set.",
-        headers: ["Population", "Alert rate", "Fraud recall", "Amount recall", "Precision", "Realised net benefit"],
+        headers: ["Population", "Alert rate", "Fraud recall", "Amount recall", "Precision", "Backtest net benefit under disclosed cost assumptions"],
         rows: [
           ["Validation", "0.50%", "81.36%", "63.46%", "16.00%", "3,431 cost units"],
           ["Test", "0.40%", "84.93%", "69.36%", "28.44%", "2,349 cost units"]
@@ -84,7 +84,7 @@ window.PORTFOLIO_PROJECTS = {
       { tone: "info", text: "PCA features support prediction but cannot support business reason codes; reason codes come only from the synthetic controls layer." }
     ],
     decision: {
-      finding: "The validation-locked 0.50% alert policy generalizes well on the test set and creates positive realised net benefit, but amount capture does not meet the Green target. The best decision is therefore a controlled candidate with explicit residual-risk acceptance.",
+      finding: "The validation-locked 0.50% alert policy generalizes well on the test set and creates positive backtest net benefit under disclosed cost assumptions, but amount capture does not meet the Green target. The best decision is therefore a controlled candidate with explicit residual-risk acceptance.",
       recommendation: "Adopt the candidate only with Risk Committee acceptance of the Amber amount-capture gap, complementary high-value controls, queue-priority remediation and stress-capacity monitoring."
     },
     charts: [
